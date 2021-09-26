@@ -122,7 +122,7 @@ else:
 
 # A number of packages can take > 60mins of build time (e.g
 # gst-ffmpeg, qt5webkit, mimic)
-HUNG_BUILD_TIMEOUT = 120 # mins
+HUNG_BUILD_TIMEOUT = 180 # mins
 VERSION = 1
 
 def rm_ro(f, p, _):
